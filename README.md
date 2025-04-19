@@ -1,7 +1,7 @@
 
 # AESTHIX - Fitness Wear Landing Page
 
-**AESTHIX** es una marca de ropa deportiva que representa fuerza, estética y superación personal. Esta landing page fue desarrollada con **Tailwind CSS** como parte del portafolio web de [Jonathan Merlin](https://github.com/jonamerliin), y está enfocada en el lanzamiento de sus colecciones exclusivas: **AURA** (mujer) y **ATHLYON** (hombre).
+**AESTHIX** es una marca de ropa deportiva que representa fuerza, estética y superación personal. Esta landing page fue desarrollada con **Tailwind CSS** como parte del portafolio web de [Jonathan Merlin](https://github.com/JonathanMerlin14), y está enfocada en el lanzamiento de sus colecciones exclusivas: **AURA** (mujer) y **ATHLYON** (hombre).
 
 ![Hero Preview](https://via.placeholder.com/1200x600.png?text=Vista+de+Inicio+AESTHIX)
 
@@ -56,7 +56,7 @@
 
 **Jonathan Merlin**  
 Desarrollador web y fundador de AESTHIX  
-[Instagram](https://instagram.com/jonamerliin) | [LinkedIn](https://www.linkedin.com/in/jonamerlin) | [GitHub](https://github.com/jonamerliin)
+[Instagram](https://instagram.com/jonamerliin) | [LinkedIn](https://www.linkedin.com/in/jonathan-jared-merlin-olmedo-304446211) | [GitHub](https://github.com/JonathanMerlin14)
 
 ---
 

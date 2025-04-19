@@ -6,15 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AESTHIX - Inicio</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
   <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    body {
-      font-family: 'Inter', sans-serif;
-    }
-    h1, h2 {
-      font-family: 'Playfair Display', serif;
-    }
-  </style>
 </head>
 <body class="bg-black text-white">
 
@@ -25,9 +18,9 @@
   </header>
 
   <!-- Hero -->
-  <section class="h-screen bg-cover bg-center flex items-center justify-center relative" style="background-image: url('hero.jpg');">
+  <section class="h-screen flex items-center justify-center relative hero-bg">
     <div class="bg-black bg-opacity-60 p-8 rounded text-center max-w-2xl">
-      <h1 class="text-4xl sm:text-5xl font-semibold mb-6 leading-tight">
+      <h1 class="text-4xl sm:text-5xl font-semibold mb-6 leading-tight font-serif">
         Awaken your power.<br>Dress with purpose.
       </h1>
       <a href="#pre-order" class="bg-white text-black px-6 py-3 font-semibold rounded hover:bg-red-600 hover:text-white transition">
@@ -36,27 +29,90 @@
     </div>
   </section>
 
-  <!-- Collections -->
-  <section class="py-20 px-6 bg-zinc-900 text-center" id="collections">
-    <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-10">
-      <!-- AURA -->
-      <div class="hover:scale-105 transition">
-        <img src="aura.jpg" alt="Aura Collection" class="rounded-lg shadow-md mb-4">
-        <h2 class="text-2xl font-semibold">AURA</h2>
-        <p class="text-gray-400">Women's Collection</p>
+  <!-- PREVENTA EXCLUSIVA -->
+  <section class="py-24 px-6 bg-black text-white" id="pre-order">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-4xl font-serif font-semibold mb-4">Preventa Exclusiva</h2>
+      <p class="text-gray-400 mb-16 max-w-2xl mx-auto text-lg">
+        Asegura tu lugar en el primer lanzamiento oficial de <span class="font-semibold text-white">AESTHIX</span>. 
+        Solo por tiempo limitado: colección femenina <span class="text-red-500 font-semibold">AURA</span> y masculina <span class="text-red-500 font-semibold">ATHLYON</span>.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+
+        <!-- AURA PRODUCT -->
+        <div class="bg-zinc-900 rounded-xl overflow-hidden shadow-lg hover:shadow-red-600 transition">
+          <img src="images/Conjunto deportivo AURA en detalle.png" alt="AURA Conjunto Mujer" class="w-full object-cover">
+          <div class="p-6 text-left">
+            <h3 class="text-2xl font-semibold mb-2">AURA Set</h3>
+            <p class="text-gray-400 mb-3">Top deportivo + leggings de alto confort. Elegancia y energía femenina en movimiento.</p>
+            <p class="text-sm text-gray-500 mb-4">Tallas disponibles: XS, S, M, L</p>
+            <a href="https://wa.me/526462213094" target="_blank" class="inline-block bg-white text-black px-6 py-2 rounded hover:bg-red-600 hover:text-white transition">
+              Apartar AURA
+            </a>
+          </div>
+        </div>
+
+        <!-- ATHLYON PRODUCT -->
+        <div class="bg-zinc-900 rounded-xl overflow-hidden shadow-lg hover:shadow-red-600 transition">
+          <img src="images/athlyon_preorder.png" alt="ATHLYON Conjunto Hombre" class="w-full object-cover">
+          <div class="p-6 text-left">
+            <h3 class="text-2xl font-semibold mb-2">ATHLYON Pack</h3>
+            <p class="text-gray-400 mb-3">Tank sin mangas + short + sudadera. Diseño para entrenamientos intensos con estilo agresivo y dominante.</p>
+            <p class="text-sm text-gray-500 mb-4">Tallas disponibles: S, M, L, XL</p>
+            <a href="https://wa.me/526462213094" target="_blank" class="inline-block bg-white text-black px-6 py-2 rounded hover:bg-red-600 hover:text-white transition">
+              Apartar ATHLYON
+            </a>
+          </div>
+        </div>
+
       </div>
-      <!-- ATHLYON -->
-      <div class="hover:scale-105 transition">
-        <img src="athlyon.jpg" alt="Athlyon Collection" class="rounded-lg shadow-md mb-4">
-        <h2 class="text-2xl font-semibold">ATHLYON</h2>
-        <p class="text-gray-400">Men's Collection</p>
+    </div>
+  </section>
+
+  <!-- FILOSOFÍA -->
+  <section class="bg-zinc-950 py-20 px-6 text-white">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl font-serif font-semibold mb-6">Más que ropa, es una mentalidad</h2>
+      <p class="text-gray-400 text-lg leading-relaxed">
+        AESTHIX nace de la lucha contra el dolor físico, la disciplina diaria y la obsesión por progresar. 
+        Es el reflejo de quienes no se rinden, de quienes entrenan incluso cuando nadie los ve. 
+        Esta marca no solo viste cuerpos, viste el compromiso con uno mismo. 
+        Aquí, cada prenda representa una transformación. ¿Estás listo para la tuya?
+      </p>
+    </div>
+  </section>
+
+  <!-- BENEFICIOS -->
+  <section class="bg-black py-20 px-6 text-white border-t border-zinc-800">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl font-serif font-semibold mb-6">Beneficios exclusivos de la preventa</h2>
+      <div class="grid sm:grid-cols-3 gap-10 text-left mt-10">
+        <div>
+          <h3 class="font-bold mb-2 text-red-500">🔥 Acceso limitado</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">
+            Solo se producirán las piezas que hayan sido apartadas. No habrá re-stock. Exclusividad garantizada.
+          </p>
+        </div>
+        <div>
+          <h3 class="font-bold mb-2 text-red-500">🎁 Regalo para los primeros</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">
+            Los primeros 20 pedidos recibirán un accesorio sorpresa de AESTHIX. Un detalle que representa tu compromiso.
+          </p>
+        </div>
+        <div>
+          <h3 class="font-bold mb-2 text-red-500">💰 Precio preferencial</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">
+            En la venta oficial el precio será mayor. Esta preventa es tu oportunidad de conseguir tu set al mejor costo.
+          </p>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
   <footer class="bg-black text-center py-10 border-t border-zinc-800">
-    <p class="text-gray-400 italic text-lg">"Strength is the foundation of an aesthetic physique."</p>
+    <p class="text-gray-400 italic text-lg">"La fuerza es la base de un físico estético."</p>
   </footer>
 
 </body>
