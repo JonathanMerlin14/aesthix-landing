@@ -115,10 +115,10 @@
     </section>
 
     <!-- FORMULARIO DE PAGO -->
-<section class="bg-zinc-950 py-16 px-6 text-white" data-aos="fade-up" id="formulario-preventa">
+<section class="bg-gradient-to-r from-black via-zinc-900 to-black py-20 px-6 text-white shadow-2xl rounded-xl mt-10" data-aos="zoom-in" id="formulario-preventa">
   <div class="max-w-3xl mx-auto text-center">
     <h2 class="text-3xl font-serif font-semibold mb-6">Completa tu preventa</h2>
-    <form id="preorderForm" class="grid gap-6 text-left" onsubmit="return redirigirPago(event)">
+    <form id="preorderForm" class="grid gap-6 text-left bg-black bg-opacity-60 p-6 rounded-lg shadow-lg backdrop-blur-sm" onsubmit="return redirigirPago(event)">
       <input type="text" name="nombre" placeholder="Tu nombre completo" required class="w-full px-4 py-2 rounded bg-black border border-gray-600 text-white" />
       
       <input type="email" name="correo" placeholder="Tu correo electrónico" required class="w-full px-4 py-2 rounded bg-black border border-gray-600 text-white" />
@@ -140,6 +140,23 @@
     </form>
   </div>
 </section>
+
+<section class="bg-black py-16 px-6 text-white border-t border-zinc-800" data-aos="fade-up">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl font-serif font-semibold mb-6">Lo que opinan nuestros atletas</h2>
+    <div class="grid sm:grid-cols-2 gap-10 text-left">
+      <div>
+        <p class="text-gray-300 text-sm italic mb-2">"No es solo ropa, es cómo me veo cuando estoy más enfocado."</p>
+        <p class="text-red-500 font-semibold">— Isabella I.</p>
+      </div>
+      <div>
+        <p class="text-gray-300 text-sm italic mb-2">"Entreno más fuerte cuando uso algo que me representa."</p>
+        <p class="text-red-500 font-semibold">— Andrés L.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
     <!-- Footer -->
     <footer class="bg-black text-center py-10 border-t border-zinc-800">
