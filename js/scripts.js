@@ -35,3 +35,16 @@ function redirigirPago(e) {
     window.open(redirectURL, '_blank');
     return false;
   }
+
+  // Esperar clic en botones que redirigen al formulario
+document.querySelectorAll('.select-product').forEach(boton => {
+    boton.addEventListener('click', function () {
+      const producto = this.dataset.product;
+      
+      // Esperar medio segundo a que el scroll termine antes de seleccionar el producto
+      setTimeout(() => {
+        const selector = document.querySelector('#formulario-preventa select[name="producto"]');
+        if (selector) selector.value = producto;
+      }, 500);
+    });
+  });
