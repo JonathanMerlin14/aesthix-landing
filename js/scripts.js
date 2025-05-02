@@ -48,3 +48,9 @@ document.querySelectorAll('.select-product').forEach(boton => {
       }, 500);
     });
   });
+
+  // Inicializar AOS (animaciones al hacer scroll)
+AOS.init({
+  duration: 800, // velocidad de animación en ms
+  once: true     // animar solo una vez
+});
